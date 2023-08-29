@@ -5,6 +5,7 @@ using UnityEngine;
 public class Builder : MonoBehaviour
 {
     protected CharacterBuild characterBuild = null;
+    protected GameObject characterModel = null;
 
     public virtual void PrepareChasis()
     {

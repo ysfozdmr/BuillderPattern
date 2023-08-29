@@ -3944,7 +3944,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8134081379009454070}
   - component: {fileID: 8134081379000168456}
-  - component: {fileID: 8134081379593274193}
   m_Layer: 0
   m_Name: BOY
   m_TagString: Untagged
@@ -3959,7 +3958,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8134081379009676246}
-  m_LocalRotation: {x: 0, y: -0.53729963, z: 0, w: 0.8433914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3972,7 +3971,7 @@ Transform:
   - {fileID: 8134081379009453674}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -65, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8134081379000168456
 Animator:
   serializedVersion: 5
@@ -3993,34 +3992,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &8134081379593274193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8134081379009676246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cba57e2f885b87499302158f63be180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BoyPrefab: {fileID: 192928, guid: ffd42d632c569fc448433ae5f9025b3b, type: 3}
-  HairPrefabs:
-  - {fileID: 5974525251337346932, guid: 8aa9f8deb4d1f244287228d4c092c3da, type: 3}
-  - {fileID: 109188770282370947, guid: 2a215ce3954ecea44ab2992ec9d16a88, type: 3}
-  - {fileID: 1596338298072721168, guid: 9d0a5d41035f5f348a6a2d11e0b25c3f, type: 3}
-  - {fileID: 1099434165370709110, guid: fdbe3860e325aac4ca49be80fbc6a4a1, type: 3}
-  GlassPrefabs:
-  - {fileID: 7957820171384809200, guid: 9a4bff373482ef74fba5b413b12a46d8, type: 3}
-  - {fileID: 7204221632502663919, guid: 37e66246de055e643945189e8744da1b, type: 3}
-  - {fileID: 2602822023866994702, guid: 06da9e4a94fc9594eb5c7170b5498940, type: 3}
-  - {fileID: 3719394290451107011, guid: 3c34fef2fd5db2d4ba0ffa7961c912e0, type: 3}
-  - {fileID: 4474365682767517386, guid: 9a5ce1d205d687342b5d2d918883defa, type: 3}
-  PantPrefabs:
-  - {fileID: 5486782158861825807, guid: a7e6794b6d994f74298d2164baeb78ea, type: 3}
-  - {fileID: 1500598265540816758, guid: 1389ae3b3ef17fa428a627933d3c473c, type: 3}
-  - {fileID: 4410672485552198374, guid: 3e9ab310e2208e24d8eade5ab46a9bf1, type: 3}
 --- !u!1 &8134081379009676248
 GameObject:
   m_ObjectHideFlags: 0

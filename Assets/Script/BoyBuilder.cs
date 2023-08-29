@@ -6,15 +6,18 @@ using UnityEngine;
 public class BoyBuilder : Builder
 {
     public CharacterBuild Boy;
+    public GameObject ObjeTransform;
 
     public override void PrepareChasis()
     {
+        
         if (characterBuild != null)
         {
-            Destroy(Boy.gameObject);
+            Destroy(Boy);
         }
 
         characterBuild = Instantiate(Boy);
+        characterModel = Instantiate(Boy.BoyPrefab,ObjeTransform.transform);
     }
 
     public override void BuildHair(int type)
@@ -38,13 +41,13 @@ public class BoyBuilder : Builder
     }
 
     private void Update()
-    {
+    {Debug.Log(characterBuild);
         if (Input.GetKeyDown(KeyCode.A))
         {
             PrepareChasis();
             BuildHair(1);
             BuildGlass(1);
-            BuildPants(1 );
+            BuildPants(1);
         }
     }
 }
