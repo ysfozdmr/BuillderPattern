@@ -9,19 +9,20 @@ public class CharacterBuild : MonoBehaviour
     public GameObject[] GlassPrefabs;
     public GameObject[] PantPrefabs;
 
-    public void AddHair(int type)
+
+    public void AddHair(int type,GameObject HairPlace)
     {
-        Instantiate(HairPrefabs[type], gameObject.transform);
+        Instantiate(HairPrefabs[type], HairPlace.transform);
     }
 
-    public void AddGlass(int type)
+    public void AddGlass(int type,GameObject GlassPlace)
     {
-        Instantiate(GlassPrefabs[type], gameObject.transform);
+        Instantiate(GlassPrefabs[type], GlassPlace.transform);
     }
 
-    public void AddPants(int type)
+    public void AddPants(int type,GameObject PantsPlace)
     {
-        Instantiate(PantPrefabs[type], gameObject.transform);
+        Instantiate(PantPrefabs[type], PantsPlace.transform);
     }
 
     public GameObject GetBoy()

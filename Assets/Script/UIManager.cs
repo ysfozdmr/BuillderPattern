@@ -26,7 +26,6 @@ public class UIManager : MonoBehaviour
 
     public void Build()
     {
-    //    _boyBuilder.GetProduct();
         _boyBuilder.PrepareChasis();
         _boyBuilder.BuildHair(hairType);
         _boyBuilder.BuildGlass(glassType);
